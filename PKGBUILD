@@ -8,11 +8,11 @@ arch=('any')
 url=('https://github.com/Ema0/ttf-inconsolata-dz-powerline')
 license=('GPL')
 source=(https://github.com/Ema0/arch/raw/master/Inconsolata-dz-Powerline.otf)
-md5sums=('4319abb6691c480d23cec11252c86a56')
+sha256sums=('5b4a5cc36eadb68dd05f3f8144fef2e63f4f14d7b768e3d7a506c63d13f4b7f5')
 install=$pkgname.install
 
 package()
 {
-    mkdir -p $pkgdir/usr/share/fonts/TTF
-    cp $srcdir/Inconsolata-dz-Powerline.otf $pkgdir/usr/share/fonts/TTF
+    mkdir -p "$pkgdir/usr/share/fonts/TTF"
+    cp "$srcdir/Inconsolata-dz-Powerline.otf" "$pkgdir/usr/share/fonts/TTF"
 }
