@@ -1,3 +1,4 @@
+#Mantainer: emnl
 pkgname=ttf-inconsolata-dz-powerline
 pkgver=1.0
 pkgrel=2
